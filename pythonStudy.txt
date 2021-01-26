@@ -1,0 +1,16 @@
+cmd:
+pip -V pip의 경로를 알려준다
+pip freeze 설치된 모든 모듈 보기
+pip install (모듈 이름) 모듈 설치
+
+win32api -> pipysin32 모듈에 들어있음
+
+실행(win+r)
+shell:startup -> 시작프로그램리스트
+
+exe 실행파일 만들기
+pip install pyinstaller
+cmd: pyinstaller test.py ->실행파일은 dist 폴더안에 만들어진다.
+-w 콘솔창 출력안되게하기
+--onefile 하나의 실행파일로 생성
+--noconsole 콘솔창이 아예안뜨고 백그라운드에서 실행
